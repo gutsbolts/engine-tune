@@ -5,13 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "engine-tune"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "Determine how well your engine will run under certain meteorological and geological conditions."
+    gem.description = "Determine how well your engine will run under certain meteorological and geological conditions."
     gem.email = "theo@gutsbolts.com"
     gem.homepage = "http://github.com/gutsbolts/engine-tune"
     gem.authors = ["Theodore Mills"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

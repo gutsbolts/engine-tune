@@ -1,20 +1,3 @@
-= engine-tune
-
-Description goes here.
-
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
-
-
-
-
 = EngineTune
 
 Interested in determining how well your engine will run under certain meteorological and geological conditions?
@@ -39,7 +22,6 @@ The calculations in this gem are modeled after "Richard Shelquist's Engine Tuner
 
 _Note that all observations must be supplied using the metric system of measurement._
 
-<pre>
   observations = Hash.new
   observations[:temperature] = 32.0 # Celsius
   observations[:dew_point] = 22.0 # Celsius
@@ -53,21 +35,17 @@ _Note that all observations must be supplied using the metric system of measurem
 
   calculations.density_altitude
     #=> 876 (as meters)
-</pre>
 
 
 Calculations are returned in metric units, but if you prefer your calculations using the English system of measurement, do this:
 
-<pre>
   calculations.metric = false
 
   calculations.density_altitude
     #=> 2874 (as feet)
-</pre>
 
 And if you forget what system of measurement your calculations object is using, just ask it:
 
-<pre>
   calculations.metric = false
 
   calculations.metric?
@@ -75,14 +53,12 @@ And if you forget what system of measurement your calculations object is using, 
 
   calculations.english?
     #=> true
-</pre>
 
 
 == The Calculator
 
 You can also bypass the calculations object and directly use the calculator:
 
-<pre>
   temperature = 32.0 # Celsius
   dew_point = 22.0 # Celsius
   altitude = 149.0 # Meters
@@ -90,17 +66,14 @@ You can also bypass the calculations object and directly use the calculator:
 
   EngineTune::Calculator.relative_horsepower(altimeter, altitude, dew_point, temperature)
     #=> 96.2 (as percentage)
-</pre>
 
 Convenience methods to convert between metric and English units are provided as well:
 
-<pre>
   EngineTune::Calculator.meters_to_feet 1054
     #=> 3458.0052546
 
   EngineTune::Calculator.inches_to_millibars 1223
     #=> TODO
-</pre>
 
 == Copyright
 
