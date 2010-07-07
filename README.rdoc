@@ -75,7 +75,7 @@ Convenience methods to convert between metric and English units are provided as 
     #=> 3458.0052546
 
   EngineTune::Calculator.inches_to_millibars 1223
-    #=> TODO
+    #=> 41415.3694298
 
 == Copyright
 
