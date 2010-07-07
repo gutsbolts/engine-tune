@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "engine-tune.gemspec",
      "lib/engine-tune.rb",
      "lib/engine-tune/calculations.rb",
      "lib/engine-tune/calculator.rb",
