@@ -56,7 +56,6 @@ And if you forget what system of measurement your calculations object is using, 
   calculations.english?
     #=> true
 
-
 == The Calculator
 
 You can also bypass the calculations object and directly use the calculator:
