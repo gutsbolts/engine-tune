@@ -20,7 +20,7 @@ The calculations in this gem are modeled after "Richard Shelquist's Engine Tuner
 
 == Standard Usage
 
-_Note that all observations must be supplied using the metric system of measurement._
+<i>Note that all observations must be supplied using the metric system of measurement.</i>
 
   observations = Hash.new
   observations[:temperature] = 32.0 # Celsius
