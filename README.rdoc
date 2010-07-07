@@ -16,7 +16,7 @@ EngineTune returns the following calculations when supplied with altitude, altim
 * Vapor Pressure
 * Relative Humidity
 
-The calculations in this gem are modeled after "Richard Shelquist's Engine Tuner's Calculator"|http://cnn.com, but have been re-factored to be more ruby-like. I urge you to read his technical articles on Density Altitude and Corrected Horsepower for detailed explanations of these concepts.
+The calculations in this gem are modeled after <a href="http://wahiduddin.net/calc/calc_hp_dp.htm">Richard Shelquist's Engine Tuner's Calculator</a>, but have been re-factored to be more ruby-like. I urge you to read his technical articles on Density Altitude and Corrected Horsepower for detailed explanations of these concepts.
 
 == Standard Usage
 
